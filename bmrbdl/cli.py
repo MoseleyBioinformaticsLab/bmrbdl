@@ -16,7 +16,7 @@ Options:
     --output-dir=<dir-name>         Where to download files [default: NMRSTAR].
     --url=<address>                 Base URL to download from [default: http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star3.1/] 
     --prefix=<value>                File prefix [default: bmr].
-    --extension=<value>             File extensions [default: .str].
+    --extension=<value>             File extensions [default: str].
 """
 
 from . import bmrbdl

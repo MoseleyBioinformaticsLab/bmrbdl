@@ -64,8 +64,8 @@ def bmrbdl(ids_list,
     :return: :py:obj:`None`
     """
     for bmrb_id in ids_list:
-        file_url = base_url + "/" + prefix + bmrb_id + extension
-        file_name = output_dir + "/" + prefix + bmrb_id + extension
+        file_url = base_url + "/" + prefix + bmrb_id + "." + extension
+        file_name = output_dir + "/" + prefix + bmrb_id + "." + extension
 
         if os.path.exists(file_name):
             if verbose:
