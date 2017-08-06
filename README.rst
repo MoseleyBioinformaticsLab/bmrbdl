@@ -50,31 +50,31 @@ Command-line interface
 
 .. code-block:: bash
 
-   python3 -m bmrbdl 15000 18569 --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star3.1/ --output-dir=NMRSTAR3 --prefix=bmr
+   python3 -m bmrbdl 15000 18569 --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star3.1/ --output-dir=NMRSTAR3 --prefix=bmr --verbose
 
 * To download several NMR-STAR formatted files (NMR-STAR version 3):
 
 .. code-block:: bash
 
-   python3 -m bmrbdl 15000 18569 --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star2.1/ --output-dir=NMRSTAR2 --prefix=bmr
+   python3 -m bmrbdl 15000 18569 --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star2.1/ --output-dir=NMRSTAR2 --prefix=bmr --verbose
 
 * In order to download all files just omit BMRB ids:
 
 .. code-block:: bash
 
-   python3 -m bmrbdl --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star3.1/ --output-dir=NMRSTAR3 --prefix=bmr
+   python3 -m bmrbdl --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star3.1/ --output-dir=NMRSTAR3 --prefix=bmr --verbose
 
 * To download metabolomics data (experimental entries):
 
 .. code-block:: bash
 
-   python3 -m bmrbdl --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/metabolomics/NMR_STAR_experimental_entries/ --output-dir=NMRSTARBMSE --prefix=bmse
+   python3 -m bmrbdl --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/metabolomics/NMR_STAR_experimental_entries/ --output-dir=NMRSTARBMSE --prefix=bmse --verbose
 
 * To download metabolomics data (theoretical entries):
 
 .. code-block:: bash
 
-   python3 -m bmrbdl --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/metabolomics/NMR_STAR_theoretical_entries/ --output-dir=NMRSTARBMST --prefix=bmst
+   python3 -m bmrbdl --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/metabolomics/NMR_STAR_theoretical_entries/ --output-dir=NMRSTARBMST --prefix=bmst --verbose
 
 
 .. _BMRB: http://www.bmrb.wisc.edu
