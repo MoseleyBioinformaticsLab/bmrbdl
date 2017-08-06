@@ -8,6 +8,8 @@ Routines for downloading NMR-STAR formatted files from the BMRB
 website to local computer.
 """
 
+from __future__ import print_function, division
+
 import requests
 import lxml.html
 import os
