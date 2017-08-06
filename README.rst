@@ -52,7 +52,7 @@ Command-line interface
 
    python3 -m bmrbdl 15000 18569 --url=http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star3.1/ --output-dir=NMRSTAR3 --prefix=bmr --verbose
 
-* To download several NMR-STAR formatted files (NMR-STAR version 3):
+* To download several NMR-STAR formatted files (NMR-STAR version 2):
 
 .. code-block:: bash
 
