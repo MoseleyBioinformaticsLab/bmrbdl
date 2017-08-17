@@ -9,10 +9,10 @@ website to local computer.
 """
 
 from __future__ import print_function, division
+import os
 
 import requests
 import lxml.html
-import os
 
 
 def collect_ids(base_url):
