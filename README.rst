@@ -1,7 +1,7 @@
 bmrbdl
 ======
 
-The `bmrbdl` package provides a simple Python interface for downloading
+The ``bmrbdl`` package provides a simple Python interface for downloading
 NMR-STAR formatted files from BMRB_ repository.
 
 Installation
