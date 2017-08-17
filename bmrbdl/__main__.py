@@ -7,5 +7,5 @@ from . import cli
 from . import __version__
 
 if __name__ == "__main__":
-	args = docopt.docopt(cli.__doc__, version=__version__)
-	cli.cli(args)
+    args = docopt.docopt(cli.__doc__, version=__version__)
+    cli.cli(args)
