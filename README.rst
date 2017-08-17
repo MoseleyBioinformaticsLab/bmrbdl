@@ -34,14 +34,16 @@ Command-line interface
    Usage:
        bmrbdl -h | --help
        bmrbdl --version
-       bmrbdl [<id>...] [--url=<address>] [--prefix=<value>] [--extension=<value>] [--output-dir=<dir-name>] [--verbose]
+       bmrbdl [<id>...] [--url=<address>] [--prefix=<value>] [--extension=<value>]
+              [--output-dir=<dir-name>] [--verbose]
 
    Options:
        -h, --help                      Show this screen.
        --version                       Show version.
        --verbose                       Print what files are processing.
        --output-dir=<dir-name>         Where to download files [default: NMRSTAR].
-       --url=<address>                 Base URL to download from [default: http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star3.1/]
+       --url=<address>                 Base URL to download from
+                                       [default: http://www.bmrb.wisc.edu/ftp/pub/bmrb/entry_lists/nmr-star3.1/]
        --prefix=<value>                File prefix [default: bmr].
        --extension=<value>             File extensions [default: str].
 
